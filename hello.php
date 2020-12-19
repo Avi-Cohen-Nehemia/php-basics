@@ -54,3 +54,14 @@ switch ($x) {
 for ($i = 0; $i < 10; $i += 1) { 
     var_dump($i);
 }
+
+// while loops
+$total = 0;
+$accumulator = 0;
+
+while ($total < 100) {
+    $accumulator += 1;
+    $total += $accumulator;
+}
+
+var_dump($total);
