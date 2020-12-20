@@ -6,7 +6,7 @@ declare(strict_types=1);
 // The function should return the two strings joined together with a space in between.
 
 function joinWords(string $firstWord, string $secondWord) : string {
-    return "${firstWord} ${secondWord}";
+    return "{$firstWord} {$secondWord}";
 };
 
 var_dump(joinWords("fish", "sticks")); // "fish sticks"
