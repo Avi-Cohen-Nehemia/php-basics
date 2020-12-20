@@ -44,3 +44,12 @@ var_dump($assoc['age']);
 // we can add another key value pair to an exiting associative array like so:
 $assoc['nationality'] = 'Israeli';
 var_dump($assoc['nationality']);
+
+// when using foreach loops in php we pass the array we want to loop over first and then
+// the variables that will allow as to access the keys and their values in the loop
+foreach ($assoc as $key => $value) {
+    var_dump("${key}: ${value}");
+};
+
+// generally the native php map, filter and reduce functions are bad to work with.
+// instead we can use libraries from composer or Laravel which provide much better methods to do those things
