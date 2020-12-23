@@ -4,7 +4,6 @@
 // unless the number is divisible by 3, in which case output "Fizz"
 // or the number is divisible by 5, in which case output "Buzz"
 // if the number is divisible by 3 and 5, output "FizzBuzz"
-// The first lines of output should look like this:
 
 for ($i = 1; $i <= 100; $i += 1) {
 
